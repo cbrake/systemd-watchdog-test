@@ -1,0 +1,9 @@
+[Unit]
+Description=Systemd Watchdog Test
+
+[Service]
+ExecStart=/usr/local/bin/systemd-watchdog-test
+WatchdogSec=10s
+Restart=on-failure
+
+
