@@ -14,3 +14,10 @@ Install
 * sudo make install
 * sudo systemctl --system daemon-reload
 * sudo systemctl start systemd-watchdog-test
+
+Embedded Systems
+================
+
+An OpenEmbedded recipe is included that can be copied to any recent 
+OE build.
+
